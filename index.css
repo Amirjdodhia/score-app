@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'ScoreFont';
+    src: url('cursed-timer-ulil-font/CursedTimerUlil-Aznm.ttf') ;
+         
+}
+
+
+body{
+    
+    margin:0;
+    text-align:center;
+    background-color:#1B244A;
+    
+}
+
+
+
+#container{
+    
+    display:flex;
+    justify-content:space-around;
+    width:100px;
+    margin: 0px auto;
+    
+}
+
+
+
+#home-section{
+    
+   
+    margin-right:150px;
+    padding:0px;
+    
+    
+}
+
+#guest-section{
+    
+   
+    
+}
+
+h1{
+    font-size:80px;
+     color:white;
+     margin:10px 0 10px 0;
+   
+}
+
+h2{
+     font-size:100px;
+     font-family:'ScoreFont';
+     color:red;
+     background:black;
+     width: 155px;
+     height: 120px; 
+     margin: 0 auto 40px auto;
+     padding:20px 25px 0 25px ;
+     
+   
+    
+}
+
+button{
+    font-family:'ScoreFont';
+    background: #1B244A;
+    font-size:18px;
+    border:1px solid white;
+    border-radius:5px;
+    margin:9px;
+    padding:10px 15px;
+    color:white;
+   
+}
